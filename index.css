@@ -1,3 +1,113 @@
+/* RESET BASE STYLES */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*, 
+*::before, 
+*::after {
+    box-sizing: border-box;
+}
+
+/* BASE STYLING */
+
 body {
     font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    max-width: 534px;
+    margin: 0 auto;
+}
+
+/* NAVBAR */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em .5em;
+}
+.navbar img {
+    width: 100%;
+}
+
+.navbar-item {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 8%;
+}
+
+#img-logo {
+    width: 20%;
+}
+
+/* AVATAR */
+
+.avatar {
+    position: relative;
+    color: white;
+}
+
+.avatar img {
+    width: 100%;
+}
+
+#img-avatar {
+    border-radius: 15px;
+}
+
+.avatar-content {
+    position: absolute;
+    bottom: 20px;
+    left: 16px;
+}
+
+.avatar-info {
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.avatar-msg {
+    color: #B7B7B7;
+}
+
+.badge {
+    position: absolute;
+    top: 50px;
+    left: 16px;
+    width: 14rem;
+    rotate: -30deg;
+}
+
+/* BUTTONS */
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.btns {
+    margin: 1em;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 100px;
+    box-shadow: 1px 1px 10px -5px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btns img {
+    width: 50%;
+}
+
+#btn-reject:hover {
+    background-color: #FFE7EF;
+}
+
+#btn-accept:hover {
+    background-color: #DBFFF4;
 }

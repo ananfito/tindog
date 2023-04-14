@@ -11,7 +11,7 @@ class Dog {
             <img id="img-avatar" src="${avatar}" alt="the dog's avatar image">
             <div class="avatar-content" id="avatar-content">
                 <p class="avatar-info">${name}, ${age}</p>
-                <p class="avatar-msg">How you doin?</p>
+                <p class="avatar-msg">${bio}</p>
             </div>
             <div class="badge hidden" id="badge-reject">
                 <img src="./images/badge-nope.png" alt="badge">

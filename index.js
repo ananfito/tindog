@@ -1,7 +1,7 @@
-import dog from "./data"
+import dog from "./data.js"
 import Dog from "./Dog.js";
 
-// event listener for reject/accpet btns
+// event listener for reject/accept btns
 
 // render function 
 // call method for dog avatar

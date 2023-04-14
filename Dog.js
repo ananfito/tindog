@@ -4,6 +4,7 @@ class Dog {
     }
 
     // method for getting avatar HTML
+    
 }
 
 export default Dog

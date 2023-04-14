@@ -25,6 +25,13 @@ body {
     display: none;
 }
 
+.end-msg {
+    padding: 5rem 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+
+}
+
 /* NAVBAR */
 
 .navbar {

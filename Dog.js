@@ -21,6 +21,12 @@ class Dog {
             </div>
             `
     }
+
+    // method for udpating hasBeenSwiped
+    setHasBeenSwiped() { this.hasBeenSwiped = true }
+
+    // method for udpating hasBeenLiked
+    setHasBeenLiked() { this.hasBeenLiked = true }
 }
 
 export default Dog

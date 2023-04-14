@@ -17,11 +17,19 @@ body {
     font-family: 'Poppins', sans-serif;
     font-size: 24px;
     max-width: 534px;
+    width: 90vw;
     margin: 0 auto;
 }
 
 .hidden {
     display: none;
+}
+
+.end-msg {
+    padding: 5rem 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+
 }
 
 /* NAVBAR */
